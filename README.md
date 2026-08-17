@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Rahul Gulati**, a Full Stack Developer specializing in the MERN stack. Built as a fast, modern single-page site showcasing projects, skills, experience, and education.
 
-**Live:** _add your deployed URL here_
+**Live:** https://portfolio-five-virid-tj39kgc5ab.vercel.app/
 **Repo:** [github.com/gulatirahul569/Portfolio](https://github.com/gulatirahul569/Portfolio)
 
 ## About
