@@ -24,7 +24,7 @@ export function About() {
           </p>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
             I&apos;m a B.Tech graduate in Artificial Intelligence &amp; Data Science, currently
-            interning as a Full Stack Developer at KP IT Experts in Mohali. I like owning a feature
+            as a Full Stack Developer at KP IT Experts in Mohali. I like owning a feature
             from the database schema all the way to the pixel.
           </p>
         </Reveal>
@@ -82,8 +82,8 @@ function Timeline({ items }: { items: TimelineItem[] }) {
           <span
             className={
               item.current
-                ? "absolute top-1.5 -left-[26px] size-2.5 rounded-full bg-primary ring-4 ring-primary/20"
-                : "absolute top-1.5 -left-[26px] size-2.5 rounded-full border border-border bg-background"
+                ? "absolute top-1.5 -left-6.5 size-2.5 rounded-full bg-primary ring-4 ring-primary/20"
+                : "absolute top-1.5 -left-6.5 size-2.5 rounded-full border border-border bg-background"
             }
           />
           <p className="font-mono text-[11px] tracking-widest text-primary uppercase">{item.period}</p>
