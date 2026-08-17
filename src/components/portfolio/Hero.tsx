@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowDown, Download, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { profile } from "@/data/portfolio";
-import resumeAsset from "@/assets/resume.pdf.asset.json";
+
 
 const phrases = [
   "MERN stack applications",
@@ -103,7 +103,7 @@ export function Hero() {
             <ArrowDown className="size-4" />
           </a>
           <a
-            href={resumeAsset.url}
+            href="/resume.pdf"
             download="Rahul-Gulati-Resume.pdf"
             className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-5 py-3 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"
           >
