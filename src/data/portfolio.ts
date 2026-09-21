@@ -92,6 +92,7 @@ export const projects: Project[] = [
       "Open source and community contributable",
     ],
     stack: ["JavaScript", "Node.js", "React"],
+    live: "https://code-forge-omega-eight.vercel.app/",
     repo: "https://github.com/gulatirahul569/CodeForge",
   },
   {
@@ -111,6 +112,26 @@ export const projects: Project[] = [
     live: "https://zorestia.com",
     repo: "https://github.com/gulatirahul569/Zorestia",
   },
+  {
+  title: "FitPro",
+  subtitle: "Fitness Training, Trainer Booking & Gym Discovery Platform",
+  problem:
+    "Finding the right trainer, accessing quality workout content and booking personal training sessions can be fragmented across different platforms, while gyms and trainers need a dedicated place to showcase their services.",
+  solution:
+    "A fitness platform built with Next.js and JSX that connects users with trainers and gyms. Users can discover trainers, watch free demo workout videos, explore gym listings and book training sessions, while trainers can showcase their expertise and upload workout content.",
+  highlights: [
+    "Trainer profiles with the ability to showcase services and training expertise",
+    "Trainers can upload workout and fitness videos for users to explore",
+    "Free demo videos allow users to preview training content before booking",
+    "Users can discover trainers and book personal training sessions",
+    "Gym listings allow users to discover gyms and explore trainers available at each gym",
+    "Gyms can list their facilities and associated trainers on the platform",
+    "Responsive Next.js application designed for a smooth experience across devices",
+  ],
+  stack: ["Next.js", "React", "JSX"],
+  live: "https://fit-pro-six-dusky.vercel.app/",
+  repo: "https://github.com/gulatirahul569/FitPro",
+},
 ];
 
 export type TimelineItem = {
