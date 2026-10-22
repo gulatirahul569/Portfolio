@@ -1,7 +1,7 @@
 export const profile = {
   name: "Rahul Gulati",
   role: "Full Stack Developer",
-  tagline: "I build responsive, scalable web applications with the MERN stack.",
+  tagline: "I build responsive, scalable web applications with the MERN stack and Next.js.",
   location: "Chandigarh, India",
   phone: "+91 7888581685",
   email: "rahulgulati425@gmail.com",
@@ -45,22 +45,22 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Roto",
-    subtitle: "Everyday Carry — Full Stack E-Commerce Platform",
-    problem:
-      "Small retailers need a complete storefront plus a way to run the business behind it, not just a product page.",
-    solution:
-      "A production-style e-commerce platform with a customer storefront and an owner-facing admin dashboard, backed by a secure REST API and a cloud-hosted MongoDB Atlas database.",
-    highlights: [
-      "Browse products, detailed product pages, cart management and order placement",
-      "Admin dashboard to create, update and delete listings and monitor inventory",
-      "Platform analytics for decision-making",
-      "Real-time data flow between frontend and backend over a secure REST API",
-    ],
-    stack: ["React", "Node.js", "Express", "MongoDB Atlas", "REST API"],
-    live: "https://roto-zeta.vercel.app",
-    repo: "https://github.com/gulatirahul569/Roto",
-  },
+  title: "Kairobuy",
+  subtitle: "Everyday Carry — Full-Stack E-Commerce Platform",
+  problem:
+    "Small retailers need a complete online storefront and the tools to manage products, inventory and orders in one place.",
+  solution:
+    "A full-stack e-commerce platform built with Next.js, featuring a customer-facing storefront and e-commerce functionality, deployed on a custom domain.",
+  highlights: [
+    "Browse products and explore detailed product pages",
+    "Shopping cart management and order placement",
+    "Modern, responsive storefront built with Next.js",
+    "Custom domain deployment at kairobuy.com",
+  ],
+  stack: ["Next.js", "React", "JavaScript"],
+  live: "https://kairobuy.com/",
+  repo: "https://github.com/shubamKPIT/Kairobuy",
+},
   {
     title: "School ERP",
     subtitle: "Full-Stack School Management System",
