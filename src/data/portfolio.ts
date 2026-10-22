@@ -21,6 +21,7 @@ export const skills = [
   { name: "HTML", note: "Semantic markup" },
   { name: "CSS", note: "Flex, Grid" },
   { name: "Next.js", note: "React framework" },
+  { name: "GitHub", note: "Git Actions" },
 ];
 
 export const focusAreas = [
